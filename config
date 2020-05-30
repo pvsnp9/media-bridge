@@ -1,0 +1,24 @@
+##main video/audio settings
+width=1280
+height=720
+fps=30
+kbps=2000
+layout=1
+maxParticipants=8
+overlay=1
+videoCodec=H264
+audioCodec=PCM
+maxCallDuration=1000
+
+#Presentation settings
+presentationAllowed=1 #0 - ignore presentations 1 - replace main video with presentation
+presWidth=1280
+presHeight=720
+presFps=5
+presKbps=300
+destination="flv:/opt/vidyo/recording.flv"
+log=error
+
+#vidyo.io connection info
+host="prod.vidyo.io"
+log=full
